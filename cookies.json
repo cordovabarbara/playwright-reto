@@ -1,64 +1,44 @@
 {
   "cookies": [
     {
-      "name": "AWSALB",
-      "value": "ZpjieIQ8j2INlcnnsAt1mE39COGLxOMRXIejT3GH/zI/SF446DgMWY4FMrTlgCx5U6mji0hQIhT29ZiLoH/U/dA4oKpUq3WBz1SwB+2Y8iNJBE50mpXGhlBfnfGq",
+      "name": "ip2location_redirection_first_visit",
+      "value": "1775830723%3Ba0f577482ff24696bd41380c0bc1f424",
       "domain": "www.bon-bonite.com",
       "path": "/",
-      "expires": 1776431924.780282,
+      "expires": 1775917123.763237,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CookieScriptConsent",
+      "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"}}",
+      "domain": "www.bon-bonite.com",
+      "path": "/",
+      "expires": 1778422724,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "1GbWWr1tjkyho/7Z2olbjR56+A8v0lYJrn9/8twYmwOcrD+VuAo95bPDToztEt3JAS8gxph9KwS2UupdYR7amY3DB1f1uy5j+aWnC6Sr9vP8XlNSU9tM64TtJylc",
+      "domain": "www.bon-bonite.com",
+      "path": "/",
+      "expires": 1776435526.745831,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBCORS",
-      "value": "ZpjieIQ8j2INlcnnsAt1mE39COGLxOMRXIejT3GH/zI/SF446DgMWY4FMrTlgCx5U6mji0hQIhT29ZiLoH/U/dA4oKpUq3WBz1SwB+2Y8iNJBE50mpXGhlBfnfGq",
+      "value": "1GbWWr1tjkyho/7Z2olbjR56+A8v0lYJrn9/8twYmwOcrD+VuAo95bPDToztEt3JAS8gxph9KwS2UupdYR7amY3DB1f1uy5j+aWnC6Sr9vP8XlNSU9tM64TtJylc",
       "domain": "www.bon-bonite.com",
       "path": "/",
-      "expires": 1776431924.780475,
+      "expires": 1776435526.746,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
-    },
-    {
-      "name": "CookieScriptConsent",
-      "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"action\":\"accept\",\"consenttime\":1725894639,\"categories\":\"[\\\"unclassified\\\",\\\"targeting\\\",\\\"performance\\\",\\\"functionality\\\"]\"}",
-      "domain": "www.bon-bonite.com",
-      "path": "/",
-      "expires": 1778419125,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gcl_au",
-      "value": "1.1.262309403.1775827125",
-      "domain": ".bon-bonite.com",
-      "path": "/",
-      "expires": 1783603125,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.1.762253797.1775827125",
-      "domain": ".bon-bonite.com",
-      "path": "/",
-      "expires": 1810387125.322993,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ga_E8C0ZNLN9F",
-      "value": "GS2.1.s1775827124$o1$g0$t1775827125$j60$l0$h1794654372",
-      "domain": ".bon-bonite.com",
-      "path": "/",
-      "expires": 1810387125.33518,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
     }
   ],
   "origins": [
@@ -71,11 +51,7 @@
         },
         {
           "name": "lastExternalReferrerTime",
-          "value": "1775827124459"
-        },
-        {
-          "name": "_gcl_ls",
-          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1775827125318},\"expires\":1783603125318}}"
+          "value": "1775830726564"
         }
       ]
     }
