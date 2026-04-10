@@ -6,12 +6,13 @@ async function globalSetup() {
   
   await page.goto('https://www.bon-bonite.com/');
   
-  // Esperar a que el popup de cookies sea visible
-  await page.waitForSelector('button:has-text("Aceptar todo")', { timeout: 10000 });
-  await page.getByRole('button', { name: 'Aceptar todo' }).click();
-  
-  // Esperar a que el popup desaparezca
-  await page.waitForSelector('button:has-text("Aceptar todo")', { state: 'hidden' });
+  // Intentar aceptar cookies solo si el popup aparece
+  try {
+    await page.waitForSelector('button:has-text("Aceptar todo")', { timeout: 5000 });
+    await page.getByRole('button', { name: 'Aceptar todo' }).click();
+  } catch {
+    // El popup no apareció, continuar igual
+  }
   
   await page.context().storageState({ path: 'cookies.json' });
   await browser.close();
